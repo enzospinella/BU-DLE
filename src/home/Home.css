@@ -1,0 +1,42 @@
+.home {
+    display: flex;
+    width: 100svw;
+    max-width: 100%;
+    margin: 0 auto;
+    min-height: 100svh;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.esquerda {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.centro {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.direita {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.botao {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: x-large;
+    width: 300px;
+}
