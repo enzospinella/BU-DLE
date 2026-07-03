@@ -15,9 +15,9 @@ function Home() {
             <div className="centro">
                 <h1>BU-Dle</h1> 
                 <div className="botoes">
-                    <Button icone={<GiDrum />} variant="primary" size="md" className="botao" alt="Modo clássico do BUDLE, adivinhe a BU de hoje com base em algumas das suas características" onClick={() => navigate('/classico')}>Clássico</Button>
-                    <Button icone={<GiDrum />} variant="primary" size="md" className="botao" alt="Adivinhe a BU de hoje com base em uma foto destorcida da sua logo" onClick={() => navigate('/foto')}>Foto</Button>
-                    <Button icone={<GiDrum />} variant="primary" size="md" className="botao" alt="Adivinhe a BU de hoje com base em um trecho da apresentação dela" onClick={() => navigate('/apresentacao')}>Apresentação</Button>
+                    <Button leftIcon={<GiDrum />} variant="primary" size="md" className="botao" alt="Modo clássico do BUDLE, adivinhe a BU de hoje com base em algumas das suas características" onClick={() => navigate('/classico')}>Clássico</Button>
+                    <Button leftIcon={<GiDrum />} variant="primary" size="md" className="botao" alt="Adivinhe a BU de hoje com base em uma foto destorcida da sua logo" onClick={() => navigate('/foto')}>Foto</Button>
+                    <Button leftIcon={<GiDrum />} variant="primary" size="md" className="botao" alt="Adivinhe a BU de hoje com base em um trecho da apresentação dela" onClick={() => navigate('/apresentacao')}>Apresentação</Button>
                 </div>
             </div>
 

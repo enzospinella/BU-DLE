@@ -1,0 +1,104 @@
+/* Estilos Base do Botão */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Tamanhos */
+.btn-sm { padding: 6px 12px; font-size: 14px; }
+.btn-md { padding: 8px 16px; font-size: 16px; }
+.btn-lg { padding: 12px 24px; font-size: 18px; }
+
+/* Variantes Comuns */
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+}
+.btn-primary:hover:not(:disabled) { background-color: #1d4ed8; }
+
+.btn-danger {
+  background-color: #dc2626;
+  color: white;
+}
+.btn-danger:hover:not(:disabled) { background-color: #b91c1c; }
+
+/* Variante Especial: Tema Bateria (Efeito Surdão 3D) */
+.btn-bateria {
+  background-color: #fbbf24; /* Amarelo */
+  color: black;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 4px solid black;
+  border-radius: 12px;
+  box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+}
+
+.btn-bateria:hover:not(:disabled) {
+  box-shadow: 8px 8px 0px 0px rgba(0,0,0,1);
+  transform: translate(-2px, -2px);
+}
+
+.btn-bateria:active:not(:disabled) {
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+  transform: translate(6px, 6px);
+}
+
+/* Ícones e Spinner */
+.btn-icon { display: flex; align-items: center; }
+.btn-icon.left { margin-right: 8px; }
+.btn-icon.right { margin-left: 8px; }
+
+.btn-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: currentColor;
+  animation: spin 1s ease-in-out infinite;
+  margin-right: 8px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Variante: Bateria Universitária "Tirante" */
+.btn-bateria-raiz {
+  /* Padrão listrado diagonal (ex: Preto e Amarelo) */
+  background: repeating-linear-gradient(
+    -45deg,
+    #000000,
+    #000000 15px,
+    #fbbf24 15px,
+    #fbbf24 30px
+  );
+  color: white;
+  font-family: 'Impact', 'Arial Black', sans-serif; /* Fonte pesada e condensada */
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  border: 4px solid #ffffff; /* Borda branca contrastante */
+  border-radius: 12px;
+  /* Contorno preto no texto para não sumir no fundo listrado */
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.btn-bateria-raiz:active:not(:disabled) {
+  transform: scale(0.95);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}

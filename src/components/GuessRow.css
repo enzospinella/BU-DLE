@@ -1,0 +1,73 @@
+/* Container da linha de palpites */
+.guess-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Permite quebrar linha em telas pequenas */
+  justify-content: center;
+  gap: 8px; /* Espaço entre os blocos */
+  padding: 8px;
+}
+
+/* O "Quadradinho" base */
+.attribute-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 90px;
+  height: 90px;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  border: 3px solid transparent; /* Espaço reservado para a borda */
+  box-sizing: border-box; /* Garante que a borda não aumente o tamanho final */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Telas maiores (tablets/desktops) */
+@media (min-width: 640px) {
+  .attribute-block {
+    width: 110px;
+    height: 110px;
+    font-size: 16px;
+  }
+}
+
+/* Cores e Status */
+.status-red {
+  background-color: #dc2626;
+  border-color: #991b1b;
+}
+
+/* Seta apontando para CIMA (Gabarito é maior/mais novo) */
+.status-red-up {
+  background-color: #dc2626;
+  border-color: #991b1b;
+  /* SVG de seta grossa embutido, usando preto com 25% de opacidade */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='rgba(0,0,0,0.25)'%3E%3Cpath d='M12 2L2 12h5v10h10V12h5z'/%3E%3C/svg%3E");
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Seta apontando para BAIXO (Gabarito é menor/mais velho) */
+.status-red-down {
+  background-color: #dc2626;
+  border-color: #991b1b;
+  /* SVG de seta grossa embutido invertido */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='rgba(0,0,0,0.25)'%3E%3Cpath d='M12 22l10-10h-5V2H7v10H2z'/%3E%3C/svg%3E");
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.status-green {
+  background-color: #22c55e;
+  border-color: #166534;
+}
+
+.status-orange {
+  background-color: #f97316;
+  border-color: #c2410c;
+}

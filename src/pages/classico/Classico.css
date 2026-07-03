@@ -1,0 +1,60 @@
+.classico-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 30px;
+}
+
+/* Container relativo para prender a caixa de sugestões nele */
+.search-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* Caixa de sugestões flutuante */
+.suggestions-list {
+  position: absolute;
+  top: 100%; /* Fica exatamente abaixo do input */
+  left: 0;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto; /* Barra de rolagem se houver muitas baterias */
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 4px;
+  padding: 0;
+  list-style: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  z-index: 10; /* Garante que fique por cima de outros elementos */
+}
+
+.suggestion-item {
+  padding: 10px 16px;
+  cursor: pointer;
+  color: #333;
+  font-weight: bold;
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+
+.guesses-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  align-items: center;
+}

@@ -1,0 +1,200 @@
+[
+    {
+        "nome": "Batimeduca",
+        "universidade": "USP",
+        "instituto": ["Matemática", "Pedagogia"],
+        "cidade": "São Paulo",
+        "mascote": ["cachorro"],
+        "torneio": ["TABU", "TOBA"],
+        "fundacao": "2018"
+    },
+    {
+        "nome": "Brutalista",
+        "universidade": "USP",
+        "instituto": ["Arquitetura", "Design"],
+        "cidade": "São Paulo",
+        "mascote": ["morcego"],
+        "torneio": ["TABU", "TOBA"],
+        "fundacao": "2004"
+    },
+    {
+        "nome": "Jabuteria",
+        "universidade": "USP",
+        "instituto": ["Saúde Pública"],
+        "cidade": "São Paulo",
+        "mascote": ["jabuti"],
+        "torneio": ["TABU", "TOBA"],
+        "fundacao": "2010"
+    },
+    {
+        "nome": "Histeria",
+        "universidade": "USP",
+        "instituto": ["Psicologia"],
+        "cidade": "São Paulo",
+        "mascote": ["pato"],
+        "torneio": ["TABU", "TOBA", "Interbatuc"],
+        "fundacao": "2015"
+    },
+    {
+        "nome": "Cherateria",
+        "universidade": "USP",
+        "instituto": ["Física", "Astronomia"],
+        "cidade": "São Paulo",
+        "mascote": ["saruê"],
+        "torneio": ["TABU", "TOBA", "BPM", "Balatucada"],
+        "fundacao": "2008"
+    },
+    {
+        "nome": "Tubatuque",
+        "universidade": "USP",
+        "instituto": ["Química", "Farmácia"],
+        "cidade": "São Paulo",
+        "mascote": ["tubarão", "cobra"],
+        "torneio": ["TABU", "TOBA", "Interbatuc"],
+        "fundacao": "2012"
+    },
+    {
+        "nome": "Batereca",
+        "universidade": "USP",
+        "instituto": ["Comunicação", "Artes"],
+        "cidade": "São Paulo",
+        "mascote": ["leão"],
+        "torneio": ["TABU", "TOBA", "Balatucada"],
+        "fundacao": "2003"
+    },
+    {
+        "nome": "Manda Chuva",
+        "universidade": "USP",
+        "instituto": ["Letras", "Filosofia", "História", "Ciências Sociais", "Geografia"],
+        "cidade": "São Paulo",
+        "mascote": ["gato"],
+        "torneio": ["TABU", "TOBA", "Interbatuc"],
+        "fundacao": "2015"
+    },
+    {
+        "nome": "S/A",
+        "universidade": "USP",
+        "instituto": ["Economia", "Administração", "Contabilidade"],
+        "cidade": "São Paulo",
+        "mascote": ["canguru"],
+        "torneio": ["TABU", "Balatucada"],
+        "fundacao": "2003"
+    },
+    {
+        "nome": "Rateria",
+        "universidade": "USP",
+        "instituto": ["Engenharia"],
+        "cidade": "São Paulo",
+        "mascote": ["rato"],
+        "torneio": ["TABU", "Balatucada", "BPM", "Interbatuc"],
+        "fundacao": "1997"
+    },
+    {
+        "nome": "Bateria ESPM",
+        "universidade": "ESPM",
+        "instituto": ["ESPM"],
+        "cidade": "São Paulo",
+        "mascote": ["baterilson"],
+        "torneio": ["TABU", "Balatucada", "Interbatuc"],
+        "fundacao": "1993"
+    },
+    {
+        "nome": "Infanteria",
+        "universidade": "UFABC",
+        "instituto": ["Todos"],
+        "cidade": "São Bernardo do Campo",
+        "mascote": ["tamanduá"],
+        "torneio": ["TABU", "Balatucada", "Interbatuc"],
+        "fundacao": "2009"
+    },
+    {
+        "nome": "Bateria UFSCar",
+        "universidade": "UFSCar",
+        "instituto": ["Todos"],
+        "cidade": "São Carlos",
+        "mascote": ["dragão"],
+        "torneio": ["Balatucada", "Interbatuc"],
+        "fundacao": "2001"
+    },
+    {
+        "nome": "Bandida",
+        "universidade": "USP",
+        "instituto": ["EACH"],
+        "cidade": "São Paulo",
+        "mascote": ["touro"],
+        "torneio": ["TABU", "Balatucada"],
+        "fundacao": "2007"
+    },
+    {
+        "nome": "Tatu Bola",
+        "universidade": "FGV",
+        "instituto": ["Todos"],
+        "cidade": "São Paulo",
+        "mascote": ["tatubola"],
+        "torneio": ["TABU", "Balatucada"],
+        "fundacao": "2011"
+    },
+    {
+        "nome": "Epidemia",
+        "universidade": "UEM",
+        "instituto": ["Engenharia", "Arquitetura"],
+        "cidade": "Maringá",
+        "mascote": ["mosquito"],
+        "torneio": ["Balatucada", "Eng. Paranaense"],
+        "fundacao": "2009"
+    },
+    {
+        "nome": "Azzurra",
+        "universidade": "São Judas",
+        "instituto": ["Arquitetura"],
+        "cidade": "São Paulo",
+        "mascote": ["picapau"],
+        "torneio": ["Balatucada"],
+        "fundacao": "2017"
+    },
+    {
+        "nome": "Bateria da Tourada",
+        "universidade": "UEPG",
+        "instituto": ["Engenharia"],
+        "cidade": "Ponta Grossa",
+        "mascote": ["touro"],
+        "torneio": ["Balatucada"],
+        "fundacao": "2009"
+    },
+    {
+        "nome": "Batorada Vaca Magra",
+        "universidade": "FAMERP",
+        "instituto": ["Medicina"],
+        "cidade": "São José do Rio Preto",
+        "mascote": ["vaca"],
+        "torneio": ["Balatucada"],
+        "fundacao": "1991"
+    },
+    {
+        "nome": "Carniceiros",
+        "universidade": "UTFPR",
+        "instituto": ["Todos"],
+        "cidade": "Ponta Grossa",
+        "mascote": ["águia"],
+        "torneio": ["Balatucada"],
+        "fundacao": "2014"
+    },
+    {
+        "nome": "RapoZona",
+        "universidade": "UTFPR",
+        "instituto": ["Todos"],
+        "cidade": "Toledo",
+        "mascote": ["raposa"],
+        "torneio": ["Balatucada"],
+        "fundacao": "2013"
+    },
+    {
+        "nome": "Os Federais",
+        "universidade": "UFPR",
+        "instituto": ["Direito"],
+        "cidade": "Curitiba",
+        "mascote": ["lobo"],
+        "torneio": ["Balatucada"],
+        "fundacao": "2000"
+    }
+]
